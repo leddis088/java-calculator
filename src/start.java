@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class start {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a number: ");
@@ -11,16 +11,16 @@ public class Main {
         int number2 = sc.nextInt();
 
         if (opt.equals("+")){
-            System.out.println((number + number2));
+            System.out.println(number + opt + number2 + "=" + (number + number2));
         }
         if (opt.equals("-")){
-            System.out.println((number - number2));
+            System.out.println(number + opt + number2 + "=" + (number - number2));
         }
         if (opt.equals("/")){
-            System.out.println((number / number2));
+            System.out.println(number + opt + number2 + "=" + (number / number2));
         }
         if (opt.equals("*")){
-            System.out.println((number * number2));
+            System.out.println(number + opt + number2 + "=" + (number * number2));
         }
     }
 }
