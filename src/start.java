@@ -11,19 +11,19 @@ public class start {
         System.out.println("Please enter the operation: ");
         String opt = sc.next();
         System.out.println("Please enter a second number: ");
-        int number2 = sc.nextInt();
+        int ww = sc.nextInt();
 
         if (opt.equals("+")){
-            System.out.println(number + opt + number2 + "=" + (number + number2));
+            System.out.println(number + opt + ww + "=" + (number + ww));
         }
         if (opt.equals("-")){
-            System.out.println(number + opt + number2 + "=" + (number - number2));
+            System.out.println(number + opt + ww + "=" + (number - ww));
         }
         if (opt.equals("/")){
-            System.out.println(number + opt + number2 + "=" + (number / number2));
+            System.out.println(number + opt + ww + "=" + (number / ww));
         }
         if (opt.equals("*")){
-            System.out.println(number + opt + number2 + "=" + (number * number2));
+            System.out.println(number + opt + ww + "=" + (number * ww));
         }
     }
 }
